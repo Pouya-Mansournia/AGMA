@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="pouyamn.agmacalculationapp.AboutUS"
+    tools:showIn="@layout/activity_aboutus">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="این نرم افزار جهت افزایش سرعت در انجام محاسبات اگما برای چرخ دنده های ساده طراحی و توسعه گردیده است.
+هدف اصلی این نرم افزار کاهش زمان  و افزایش دقت در حل ریاضی میباشد. تمامی بخش های این نرم افزار از کتاب طراحی اجزا شیگلی نمونه برداری شده و تمامی حقوق معنوی این اثر مربوط به استاد شاهوردی و اینجانب پویا منصورنیا می باشد.
+هرگونه پیشنهاد و انتقادات خود را میتوانید با ما در تماس باشید.
+"
+        android:textAlignment="gravity"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="150dp"
+        app:srcCompat="@mipmap/qiaulogo" />
+
+    <Button
+        android:id="@+id/btn_tell"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="Tell"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_telegram"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Telegram"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_mail"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn_tell"
+        android:layout_centerHorizontal="true"
+        android:text="Email Address"
+        android:textStyle="bold" />
+
+</RelativeLayout>

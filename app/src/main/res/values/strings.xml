@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AGMACalculationAPP</string>
+    <string name="action_about_us">About Us</string>
+    <string name="action_Bending_stress">AGMA Bending stress</string>
+    <string name="action_Contact_Stress">AGMA Contact Stress</string>
+    <string name="action_logout">Log out</string>
+</resources>

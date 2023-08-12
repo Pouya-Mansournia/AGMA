@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pouyamn.agmacalculationapp.Bending_Stress">
+
+
+    <item
+        android:id="@+id/action_Bending_stress"
+        android:orderInCategory="100"
+        android:title="@string/action_Bending_stress"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_Contact_Stress"
+        android:orderInCategory="100"
+        android:title="@string/action_Contact_Stress"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about_us"
+        android:orderInCategory="100"
+        android:title="@string/action_about_us"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="@string/action_logout"
+        app:showAsAction="never" />
+</menu>
